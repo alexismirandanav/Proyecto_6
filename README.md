@@ -64,3 +64,26 @@ Update/:id
 
 Delete/:id
 ![App Screenshot](./src/img/product_delete.jpg)
+
+## Instalación y configuración
+
+- Clona este repositorio: (https://github.com/alexismirandanav/Proyecto_6)
+
+- Instala las dependencias
+
+```
+$ npm install
+```
+
+- Asegúrate de tener un archivo `.env` con las variables de entorno. En este caso, configuraré de esta forma:
+
+```
+MONGODB_URI=mongodb://localhost:27017/AMN_proyecto_6
+PORT=3000
+SECRET=UDDP6
+```
+
+- Levanta el proyecto:
+
+```
+$ npm run dev
